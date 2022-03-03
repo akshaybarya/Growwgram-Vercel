@@ -1,0 +1,13 @@
+export const ALTER_THEME = "ALTER_THEME";
+export const SET_CURR_THEME = "SET_CURR_THEME";
+export const CHANGE_DEVICE = "CHANGE_DEVICE";
+export const FETCH_FEED_DATA = "FETCH_FEED_DATA";
+export const ADD_FEED_DATA = "ADD_FEED_DATA";
+export const REMOVE_FEED_DATA = "REMOVE_FEED_DATA";
+export const FEED_LOADING = "FEED_LOADING";
+export const FEED_LOADING_FALSE = "FEED_LOADING_FALSE";
+export const FETCH_USER_DATA = "FETCH_USER_DATA";
+export const ADD_USER_DATA = "ADD_USER_DATA";
+export const USER_LOADING = "USER_LOADING";
+export const FEED_ERROR = "FEED_ERROR";
+export const USER_ERROR = "USER_ERROR";

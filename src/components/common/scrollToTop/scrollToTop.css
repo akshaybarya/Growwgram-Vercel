@@ -1,0 +1,31 @@
+.scroll195Container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 3%;
+  right: 10%;
+  border-radius: 50px;
+  border: 1px solid;
+  height: 25px;
+  width: 25px;
+  padding: 10px;
+  box-shadow: var(--scroll-button) inset;
+  background-color: var(--main-bgcolor);
+}
+
+.scroll195Container i {
+  font-size: x-large;
+}
+.scroll195Container {
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.scroll195Container:hover {
+  transform: scale(1.2);
+}
+
+.FeedContainer {
+  height: 200vh;
+}

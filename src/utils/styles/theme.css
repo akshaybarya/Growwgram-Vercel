@@ -1,0 +1,23 @@
+body {
+  --main-color: #000;
+  --main-bgcolor: #fff;
+  --main-bgcolor-dark: #858585;
+  --text-grey: rgb(239, 239, 239);
+  --main-border-color: #a5a4a4;
+  --main-background: #fafafa;
+  --red-like: rgba(255, 0, 64, 0.952);
+  --pinkGradient: linear-gradient(135deg, #c10a67, #e52143, #dfc824);
+  --scroll-button: rgb(50 50 93 / 25%) 0px 50px 100px -20px,
+    rgb(0 0 0 / 30%) 0px 30px 60px -30px, rgb(10 37 64 / 35%) 0px -2px 6px 0px;
+}
+
+body.dark {
+  --main-color: #fff;
+  --main-bgcolor: #000;
+  --main-bgcolor-dark: #858585;
+  --text-grey: #4d4d4d;
+  --main-border-color: #fff;
+  --main-background: #000;
+  --scroll-button: #fff 0px 50px 100px -20px, #000 0px 30px 60px -30px,
+    #fff 0px -2px 6px 0px;
+}

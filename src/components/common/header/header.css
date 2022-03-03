@@ -1,0 +1,129 @@
+.header195OuterContainer {
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  border-width: 1px;
+  border-color: var(--main-border-color);
+  border-bottom-style: solid;
+  background-color: var(--main-bgcolor);
+  z-index: 150;
+}
+
+.header195InnerContainer {
+  justify-content: space-between;
+  width: 100%;
+  column-gap: 30px;
+}
+
+.header195Left {
+  width: 70%;
+  justify-content: space-between;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.header195Right {
+  width: 30%;
+}
+
+.header195LogoBox,
+.header195SearchBox,
+.header195ButtonBox {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.header195SearchBox,
+.header195LogoBox {
+  min-width: 40%;
+}
+
+.header195Logo {
+  text-align: left;
+  font-family: Dancing Script, cursive;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.header195ButtonBox {
+  justify-content: space-around;
+}
+
+.header195SearchBox {
+  padding: 2px 10px;
+}
+
+.header195Search {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 15px;
+  background-color: var(--text-grey);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 17px;
+}
+
+.header195Icons {
+  padding: 5px;
+  border-radius: 100px;
+}
+
+.header195Icons:hover {
+  transform: scale(1.2);
+}
+
+.header195Icons i {
+  transition: scale 0.5s;
+  cursor: pointer;
+}
+
+.header195 {
+  background: var(--main-bgcolor);
+}
+
+.headerProfileIcon {
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+.headerProfileIcon:hover {
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 480px) {
+  .header195InnerContainer {
+    min-height: 5vh;
+    padding: var(--sm-padding);
+  }
+
+  .header195Icons i {
+    font-size: x-large;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 900px) {
+  .header195InnerContainer {
+    min-height: 5vh;
+    padding: var(--md-padding);
+  }
+
+  .header195Icons i {
+    font-size: large;
+  }
+}
+
+@media screen and (min-width: 901px) {
+  .header195InnerContainer {
+    min-height: 5vh;
+    padding: var(--xl-padding);
+  }
+
+  .header195SearchBox {
+    display: flex;
+  }
+
+  .header195Icons i {
+    font-size: x-large;
+  }
+}

@@ -1,0 +1,51 @@
+.mHeader195TopContainer {
+  box-sizing: border-box;
+  position: fixed;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 15px;
+  border-bottom-style: solid;
+  border-color: var(--main-bgcolor-dark);
+  z-index: 150;
+}
+
+.mHeader195Logo {
+  font-family: Dancing Script, cursive;
+  font-size: 20px;
+}
+
+.mHeader195Blocks i {
+  font-size: x-large;
+  transition: 1ms;
+}
+
+.mHeader195Blocks i:active {
+  transform: scale(1.2);
+}
+
+.mHeader195BottomContainer {
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 15px;
+  border-top-style: solid;
+  border-color: var(--main-bgcolor-dark);
+  z-index: 150;
+}
+
+.header195ProfileIcon {
+  border-radius: 50px;
+  height: 25px;
+  width: 25px;
+  overflow: hidden;
+}
+
+.imageIcon195 {
+  transition: transform 0.5s;
+}
+
+.imageIcon195:active {
+  transform: scale(1.2);
+}

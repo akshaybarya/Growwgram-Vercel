@@ -1,0 +1,30 @@
+.fs195Container {
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 25vh;
+  max-width: 20%;
+  min-width: 17%;
+  background-color: var(--main-bgcolor);
+  padding: 10px 30px;
+  border-radius: 5px;
+  position: fixed;
+  top: 100px;
+  border: 1px solid var(--main-border-color);
+}
+
+.fs195userProfile {
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.fs195right {
+  cursor: pointer;
+  font-size: small;
+}
+
+.headingColor {
+  color: var(--main-bgcolor-dark);
+}

@@ -1,0 +1,32 @@
+.fsc195Container {
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 2px;
+}
+
+.fsc195Left {
+  justify-content: space-evenly;
+  column-gap: 10px;
+}
+
+.fsc195Blue {
+  color: #0095f6;
+  font-size: small;
+}
+
+.fcs195Pointer {
+  cursor: pointer;
+}
+
+.fsc195Text {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 3px;
+  text-align: left;
+}
+
+.fsc195Scondary {
+  font-size: x-small;
+  color: var(--main-bgcolor-dark);
+}
